@@ -156,21 +156,21 @@ h5 {
 nav {
   top: 0;
   width: 100%;
-  height: 5em;
+  /* height: 5em; */
   background-color: white;
   padding: 1em 0 0 8em;
   box-sizing: border-box;
-  position: fixed;
+ /* position: fixed; */
   margin-bottom: 2em;
 }
 
 .logo {
-  margin-left: 6em;
+  margin-left: 8em;
   vertical-align: text-bottom;
 }
 
 nav a {
-  margin: 0 3em;
+  /* margin: 0 3em; */
   text-decoration: none;
   color: black;
   letter-spacing: 1px;
@@ -182,7 +182,7 @@ nav a {
 }
 
 .first-section {
-  margin: 8em 0;
+  margin: 0.5em 0;
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -287,8 +287,12 @@ footer {
         margin: 2em;
     }
     .image {
-        max-width: 70%;
+        max-width: 90%;
+        margin: 0 auto;
         ;
+    }
+    .middle-img {
+        max-width: 100%;
     }
 
 }
@@ -298,13 +302,14 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 section {
     display: flex;
     flex-wrap: wrap;
 }
 .image {
-    max-width: 20%;
+    max-width: 95%;
     ;
 }
 footer {
@@ -312,6 +317,27 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+}
+nav { display: flex;
+  flex-direction: column-reverse;
+  margin: 5% auto;
+  align-items: center;
+  margin-top: 10px;
+
+
+} 
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px border black;  
+}
+.navBar a {
+  padding: 0.5em;
+   
+}
+.logo {
+  margin: 0 auto;
 }
 }
 
